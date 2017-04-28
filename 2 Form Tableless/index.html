@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Input Data Pengunjung | emerer.com </title>
+	<style type="text/css">
+	label{
+		float: left;
+		width: 115px;
+		font-weight: bold;
+	}
+
+	input{
+		width: 150px;
+		margin-bottom: 5px;
+	}
+
+	textarea{
+		width: 300px;
+		height: 90px;
+	}
+
+	.boxes{
+		width: 1em;
+	}
+
+	#submitbutton{
+		margin-left: 115px;
+		margin-top: 5px;
+		width: 90px;
+	}
+	
+	</style>
+</head>
+
+<body>
+
+<form>
+<label for="nama">Nama</label>
+<input type="text" name="nama" value="" /><br />
+
+<label for="hp">No HP:</label>
+<input type="text" name="hp" value="" /><br />
+
+<label for="alamat">Alamat:</label>
+<textarea name="alamat"></textarea><br />
+
+<label for="setuju">Anda setuju ?</label>
+<input type="checkbox" name="setuju" class="boxes" /><br />
+
+<input type="submit" name="submitbutton" id="submitbutton" value="Simpan" />
+</form>
+
+</body>
+</html>

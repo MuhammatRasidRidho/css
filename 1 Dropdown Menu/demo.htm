@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+	<title>Chrome CSS Drop Down Menu</title>
+	<link rel="stylesheet" type="text/css" href="crometheme/chromestyle.css" />	
+	<script type="text/javascript" src="chromejs/chrome.js"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="chromestyle" id="chromemenu">
+<ul>
+<li><a href="http://www.dynamicdrive.com">Home</a></li>
+<li><a href="#" rel="dropmenu1">Resources</a></li>
+<li><a href="#" rel="dropmenu2">News</a></li>
+<li><a href="#" rel="dropmenu3">Search</a></li>	
+</ul>
+</div>
+
+<!--1st drop down menu -->                                                   
+<div id="dropmenu1" class="dropmenudiv">
+<a href="#">Dynamic Drive</a>
+<a href="#">CSS Drive</a>
+<a href="#">JavaScript Kit</a>
+<a href="#">Coding Forums</a>
+<a href="#">JavaScript Reference</a>
+</div>
+
+
+<!--2nd drop down menu -->                                                
+<div id="dropmenu2" class="dropmenudiv" style="width: 150px;">
+<a href="#">CNN</a>
+<a href="#">MSNBC</a>
+<a href="#">BBC News</a>
+</div>
+
+<!--3rd drop down menu -->                                                   
+<div id="dropmenu3" class="dropmenudiv" style="width: 150px;">
+<a href="#">Google</a>
+<a href="#">Yahoo</a>
+<a href="#">MSN</a>
+</div>
+
+
+<script type="text/javascript">
+
+cssdropdown.startchrome("chromemenu")
+
+</script>
+
+</body>
+
+</html>

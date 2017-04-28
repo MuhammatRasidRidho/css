@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+
+<html>
+<head>
+	<title>Niceforms</title>
+	<script language="javascript" type="text/javascript" src="niceforms.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="niceforms-default.css" />
+</head>
+
+<body>
+<div id="container">
+<form action="vars.php" method="post" class="niceform">
+    <fieldset>
+    	<legend>Comments</legend>
+	<dl>
+	       	<dt><label for="name">Name:</label></dt>
+		<dd><input type="text" name="name" id="name" size="32" maxlength="128" /></dd>
+        </dl>
+	<dl>
+		<dt><label for="email">Email Address:</label></dt>
+		<dd><input type="text" name="email" id="email" size="32" maxlength="128" /></dd>
+        </dl>
+        <dl>
+		<dt><label for="comments">Message:</label></dt>
+		<dd><textarea name="comments" id="comments" rows="5" cols="60"></textarea></dd>
+        </dl>
+        <dl>
+		<dt><label for="upload">Upload a File:</label></dt>
+		<dd><input type="file" name="upload" id="upload" /></dd>
+        </dl>
+	</fieldset>
+	<fieldset class="action">
+		<input type="submit" name="submit" id="submit" value="Submit" />
+	</fieldset>
+</form>
+</div></body>
+</html>
